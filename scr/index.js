@@ -11,4 +11,6 @@ function visited() {
 function save() {
     let countOff = count + " - "
     previousEntires.textContent += countOff
+    peopleCounter.innerText = 0
+    count = 0
 }
