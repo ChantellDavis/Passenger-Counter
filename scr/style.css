@@ -29,7 +29,7 @@ body {
 .mainTitle{
     font-size: 40px;
 }
-.mainTitle, .PeopleCounter{
+.mainTitle, .peopleCounter{
     background-color: #fff;
     padding: 10px ;
     
@@ -40,12 +40,13 @@ body {
   color:  rgb(160, 160, 245) ;  
 }
 
-.mainTitle, .saveBtn, .PeopleCounter, .visitedBtn, .previousEntires{
+.mainTitle, .saveBtn, .peopleCounter, .visitedBtn, .previousEntires{
     border-radius: 2px ; 
 }
 
-.PeopleCounter{
+.peopleCounter{
 font-size: 30px;
+color: rgb(89, 89, 167) ;
 }
 
 .visitedBtn, .saveBtn{

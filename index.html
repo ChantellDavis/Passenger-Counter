@@ -14,11 +14,15 @@
     <div class="box">
       <div class="topStripe">.</div>
       <h2 class="mainTitle">People Entered:</h2>
-      <h2 class="PeopleCounter">0</h2>
-      <button class="visitedBtn">Visited</button>
-      <button class="saveBtn">Save</button>
-      <p class="previousEntires">Previous entires:</p>
+      <h2 class="peopleCounter" id="people-counter">0</h2>
+      <button class="visitedBtn" onclick="visited()">Visited</button>
+      <button class="saveBtn" onclick="save()">Save</button>
+      <p class="previousEntires" id="previous-entires">
+        Previous entires: <span></span>
+      </p>
+
       <div class="bottomStripe">.</div>
     </div>
+    <script src="/scr/index.js"></script>
   </body>
 </html>
